@@ -1,0 +1,174 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* headings */
+
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* containers */
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* sections */
+.colored-section{
+  background-color: #7551d6;
+  color: white;
+}
+
+.white-section{
+  background-color: #ffff;
+}
+
+/* navigation bar */
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+font-family: 'Ubuntu', sans-serif;
+ font-weight: bold;
+ font-size: 2.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+/* download buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title section */
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+/* title image */
+@keyframes shake {
+  0%   {transform: rotate(1deg);}
+  50%  {transform: rotate(-1deg);}
+  100% {transform: rotate(1deg);}
+}
+
+.catpic{
+  /* transform: rotate(-25deg); */
+  position: absolute;
+  width: 30%;
+  right: 10%;
+  animation-name: shake;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  /* animation-timing-function: ease-in-out; */
+}
+
+/* media query */
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .dogpic{
+    position: static;
+    transform: rotate(0);
+    width: 70%;
+  }
+}
+
+/* features */
+
+#features{
+  position: relative;
+}
+
+.feature-item{
+  padding: 5%;
+}
+
+.features-icon{
+  color: #ab92f0;
+  margin-bottom: 1rem;
+
+}
+
+.features-icon:hover{
+  color: #7551d6;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+/* testimonials */
+#testimonials{
+  background-color: #ab92f0;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ab92f0;
+  padding-bottom: 3%;
+}
+
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing{
+  padding: 100px;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+#price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* call to action section */
+
+/* footer section */
+   /* social-icon */
+i{
+  padding: 20px 10px;
+  color: black;
+}
